@@ -28,7 +28,6 @@ class StartScene extends Phaser.Scene {
 
         this.add.text(config.width / 2, 250, textTitle, textStyle).setOrigin(0.5)
         this.add.text(config.width / 2, 350, textScore, textStyle).setOrigin(0.5)
-        console.log(graphics)
     }
 
 
